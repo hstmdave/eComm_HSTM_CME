@@ -3,6 +3,12 @@
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
+			window.addEventListener("onEmbeddedMessagingReady", () => {
+				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
+					"PreChat_URL": window.location.origin
+				});
+			});
+
 			embeddedservice_bootstrap.init(
 				'00DWL000002dfgT',
 				'eCommerce_Messaging',
