@@ -10,9 +10,9 @@
 			});
 
 			embeddedservice_bootstrap.init(
-				'00DWL000002dfgT',
-				'eCommerce_Messaging',
-				'https://healthstream--hstm.sandbox.my.site.com/ESWeCommerceMessaging1754589994624',
+				'00DWL000003W4Bd',
+				'Messaging_eCommerce',
+				'https://healthstream--hstm.sandbox.my.site.com/ESWMessagingeCommerce1761573851220',
 				{
 					scrt2URL: 'https://healthstream--hstm.sandbox.my.salesforce-scrt.com'
 				}
@@ -22,4 +22,4 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWeCommerceMessaging1754589994624/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWMessagingeCommerce1761573851220/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
