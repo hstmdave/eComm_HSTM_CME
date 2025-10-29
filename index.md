@@ -5,7 +5,7 @@
 
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-					"PreChat_URL": "https://www.cmecourses.com/test"
+					"PreChat_URL": 'https://www.cmecourses.com/test'
 				});
 			});
 
